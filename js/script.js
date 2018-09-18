@@ -1,6 +1,6 @@
 
 //Particle.js
-particlesJS.load('particles-js', '../particles.json', function(){
+particlesJS.load('particles-js', '../json/particles.json', function(){
     console.log('particles.json loaded...');
   });
 
