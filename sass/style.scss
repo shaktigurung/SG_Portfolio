@@ -1,0 +1,58 @@
+/*
+====================================================
+||||||Shakti Gurung Custom Style Sheet |||||
+====================================================
+====================================================
+||||||Color Palette|||||
+====================================================
+orange:#B55E3A
+black:#000D0E
+grey:#464941
+white:#F3F3F1
+greywhite:#B5A992
+lightgreywhite:#B3AA99
+blue:#225470;//overlay color
+
+====================================================
+||||||Fonts |||||
+====================================================
+font-family: 'Pacifico', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Yantramanav', sans-serif;
+font-family: 'Noto Serif', serif;
+
+/*====================================================
+||||||HTML and Body |||||
+====================================================
+*/
+html,
+body {
+    height: 100%;
+}
+
+body {
+    color: #000D0E;
+    background-color:#B5A992;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: 'Noto Serif', serif;
+}
+p {
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+section {
+    background: #B5A992;
+    overflow: hidden;
+}
+.nopadding { padding: 0 ;}
+
+.nomargin { margin: 0 ;}
