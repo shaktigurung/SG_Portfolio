@@ -20,11 +20,19 @@ font-family: 'Pacifico', cursive;
 font-family: 'Dancing Script', cursive;
 font-family: 'Yantramanav', sans-serif;
 font-family: 'Noto Serif', serif;
+/*====================================================
+||||||Variable Declaration |||||
+====================================================
+*/
+$bgcolor:#B5A992;
+$particlebg:black;
+$introfont: #ccc;
 
 /*====================================================
 ||||||HTML and Body |||||
 ====================================================
 */
+
 html,
 body {
     height: 100%;
@@ -32,7 +40,7 @@ body {
 
 body {
     color: #000D0E;
-    background-color:#B5A992;
+    // background-color:$bgcolor;
 }
 h1,
 h2,
@@ -56,3 +64,33 @@ section {
 .nopadding { padding: 0 ;}
 
 .nomargin { margin: 0 ;}
+
+/*====================================================
+||||||Particle JS |||||
+====================================================
+*/
+#particles-js{
+    // background:$particlebg;
+    background-color: $bgcolor;
+    height: 100%;
+}
+.intro{
+    color:$introfont;
+    width:600px;
+    height:40vh;
+    background:$bgcolor;
+    opacity:0.9;
+    border:$introfont 1px solid;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding:10px;
+  }
+  .intro a{
+      text-decoration: none;
+      color:$introfont;
+      float:bottom;
+
+  }
+  

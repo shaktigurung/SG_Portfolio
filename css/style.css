@@ -20,7 +20,10 @@ font-family: 'Pacifico', cursive;
 font-family: 'Dancing Script', cursive;
 font-family: 'Yantramanav', sans-serif;
 font-family: 'Noto Serif', serif;
-
+/*====================================================
+||||||Variable Declaration |||||
+====================================================
+*/
 /*====================================================
 ||||||HTML and Body |||||
 ====================================================
@@ -32,7 +35,6 @@ body {
 
 body {
   color: #000D0E;
-  background-color: #B5A992;
 }
 
 h1,
@@ -62,6 +64,35 @@ section {
 
 .nomargin {
   margin: 0;
+}
+
+/*====================================================
+||||||Particle JS |||||
+====================================================
+*/
+#particles-js {
+  background-color: #B5A992;
+  height: 100%;
+}
+
+.intro {
+  color: #ccc;
+  width: 600px;
+  height: 40vh;
+  background: #B5A992;
+  opacity: 0.9;
+  border: #ccc 1px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.intro a {
+  text-decoration: none;
+  color: #ccc;
+  float: bottom;
 }
 
 /*# sourceMappingURL=style.css.map */
